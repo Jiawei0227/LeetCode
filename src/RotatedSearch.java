@@ -1,6 +1,7 @@
 /**
  * Created by Jerry Wang on 04/09/2018.
  */
+//33
 public class RotatedSearch {
     public int search(int[] nums, int target) {
         int lo = 0;
@@ -34,6 +35,7 @@ public class RotatedSearch {
         return -1;
     }
 
+    //34
     public int[] searchRange(int[] nums, int target) {
         int lo = 0;
         int hi = nums.length-1;
